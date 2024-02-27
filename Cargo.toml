@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "src/testback_backend"
+]
+resolver = "2"
+
+[workspace.dependencies]
+candid = "0.10"
+ic-cdk = "0.12"
+ic-cdk-macros = "0.8"
